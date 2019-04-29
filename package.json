@@ -1,0 +1,28 @@
+{
+  "name": "demo-tape-server",
+  "version": "1.0.0",
+  "description": "PromptWorks coding assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "spotify-web-api-node": "^2.4.0",
+    "twilio": "^3.6.2",
+    "body-parser": "^1.15.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "chai-http": "^3.0.0",
+    "faker": "^3.1.0",
+    "mocha": "^4.0.1"
+  }
+}
